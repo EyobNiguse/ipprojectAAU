@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=New+Tegomin&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=New+Tegomin&family=Roboto&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lobster', cursive;
+
+
+}
+.button{
+  cursor: pointer;
+  margin-right:350px;
+  padding:5px;
+  margin-top:2px;
+}
+
+.button > div{
+    background:yellow;
+    width:25px;
+    height:3px;
+    margin:5px;
+}
+.button :nth-child(2){
+   width:15px;
+    }
+.logo{
+    width:100px;
+    position:absolute;
+    top:10px;
+    left:20%;
+    cursor: pointer;
+}
+.header{
+    width:100%;
+    height:70px;
+    padding:20px;
+    background: rgb(20, 19, 19);
+ 
+    display:flex;
+    justify-content:flex-end;
+
+}
+.nav a{
+    color:black;
+    text-decoration:none;
+    font-size: 20px;
+}
+.nav{
+    margin-right:20px;
+}
+.nav li{
+    list-style: none;
+    display:inline-block;
+    padding:10px;
+    width:100px;
+    background: yellow;
+    border-radius:25px;
+    cursor: pointer;
+    text-align:center;
+}
+ 
+.display{
+    padding:50px;
+    display:grid;
+    grid-template-columns:0px 300px 50px  450px 10px 400px;
+    grid-template-rows:70vh;
+    height:90vh;
+    grid-gap:5px;
+    background: rgb(20, 19, 19);
+    
+ 
+    color:white;
+
+}
+.left{
+    grid-column:2;
+    width:auto;
+    padding:10px;
+    z-index: 10000;
+
+
+}
+.logo-container{
+    display: grid;@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=New+Tegomin&family=Roboto&display=swap');
+    place-items:center;
+}
+.right{
+    grid-column:4;
+    width:auto;
+    background: url(../images/right.jpg) no-repeat; 
+    background-size:cover;
+    background-position:center ;
+ border-radius:10px;
+}
+.show-case{
+  grid-column:6;
+  display: grid;
+ grid-template-rows:150px 150px 150px;
+grid-gap:10px;
+}
+    .show-case > div{
+  
+        border-radius:10px;
+
+
+    }
+    .one{
+        background:url(../images/one.jpg);
+        background-position: center;
+        background-size:cover;
+    }
+    .two{
+        background:url(../images/two.jpg);
+        background-position: center;
+        background-size:cover;
+    }
+    .three{
+   
+        background:url(../images/three.png);
+        background-position: center;
+        background-size:cover;
+        background-color:yellow;
+    }
+    .info{
+        width:100%;
+        height:100%;
+        background:rgba(0, 0, 0, 0.651);
+        border-radius:10px;
+        padding:10px;
+    }
+    .info h3{
+       
+        text-align:center;
+     
+    }
+    .info p{
+        font-family: 'Abril Fatface', cursive;
+        font-size:17px;
+        padding:20px;
+
+    }
+
+.headphones{
+    width:200px;
+    margin-left:95px;
+
+}
+.information{
+    font-size:40px;
+    color:white;
+    margin-top:10px;
+    margin-left: 50px;
+    width:600px;
+    vertical-align:middle;
+    background: rgba(20, 19, 19, 0.678);
+    padding:10px;
+    text-align:center;
+}
+.menu-btn{
+    background:white;
+}
+a {
+    color:white;
+    text-decoration: none;
+}
+.down{
+    display:grid;
+    place-items:center;
+    padding:10px;
+    width:50px;
+    height:50px;
+    border:1px solid white;
+    border-radius:50%;
+    margin-left:170px;
+    margin-top:50px;
+    cursor: pointer;
+   
+}
