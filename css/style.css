@@ -7,7 +7,7 @@
 }
 body{
     font-family: 'Lobster', cursive;
-
+  
 
 }
 .button{
@@ -65,9 +65,10 @@ body{
 .display{
     padding:50px;
     display:grid;
-    grid-template-columns:50px 200px 30px  450px 10px 400px;
-    grid-template-rows:500px;
-    height:90vh;
+    padding-top: 80px;
+    grid-template-columns:10px 200px 30px  450px 10px 400px;
+    grid-template-rows: 500px;
+    /* height:800px; */
     grid-gap:5px;
     color:white;
     background: rgb(20, 19, 19);
@@ -206,6 +207,7 @@ a {
     color:black;
     padding:20px;
     border-radius:10px;
+   
  
     
 }
@@ -219,16 +221,96 @@ a {
     margin:20px;
     margin-left:150px;
 }
+.hidden-menu{
+    display: none;
+}
 .close{
     position:absolute;
     top:0;
     right:100;
 }
+.signup-holder{
+    display: grid;
+    grid-template-columns: 5px 350px 350px ;
+    grid-gap:50px;
+    padding:50px;
+    place-items: center;
+}
+.price-notice{
+    margin-top: 10px;
+    grid-column: 2;
+    background: none;
+    width:auto;
+    padding:20px;
+    border-top:2px solid black;
+  
+}
+.skewed-top{
+ 
+    background: url(../images/skewed.png) no-repeat;
+    width:350px;
+    height:200px;
+    padding:10px;
+    font-size: 20px;
+    text-align: center;
+}
+.skewed-top p{
+    margin-top: 10px;
+}
+.signup{
+    grid-column:3;
+    width:250px;
+    padding: 10px;
+    background: yellow;
+}
+.txt-input{
+    display: block;
+    margin:10px;
+    padding:15px;
+    width:350px;
+    border:none;
+    border-right:2px solid black;
+}
+.submit-btn{
+    width:350px;
+    padding:10px;
+    margin:10px;
+    background: black;
+    color:white;
+    border:none;
+    font-family: 'Abril Fatface', cursive;
+    border-radius: 25px;
+    font-size:20px;
+}
+header h3{
+    text-align:center;
+}
+.point{
+    float:right;
+    border:1px solid black;
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    display: grid;
+    place-items: center;
+}
+.price-notice header{
+    text-align: center;
+}
+header h2{
+    padding:10px;
+    background: rgb(20, 19, 19);
+    color:yellow;
+    width:75%;
+    border-top-right-radius: 10px;
+}
+.main-card h1{
+    text-align: center;
+    margin-top: 50px;
+}
 @media screen and (max-width:700px){
  
-    body{
-        background:rgb(20, 19, 19);
-    }
+
     .display{
         display: block;
         width:100%;
@@ -240,6 +322,9 @@ a {
     .button{
         margin:0;
         display: block;    
+    }
+    .menu-in{
+        display: grid;
     }
     .logo{
         position:absolute;
@@ -271,5 +356,15 @@ a {
     .menu-in li{
         font-size:25px;
         margin-left:50px;
+    }
+  
+    .signup-holder{
+    display: block;
+    }
+    .txt-input{
+        width: 120%;
+    }
+    .submit-btn{
+        width:120%;
     }
 }
