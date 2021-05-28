@@ -326,6 +326,9 @@ header h2{
 .links-quick{
     grid-column:2;
 }
+.links-quick a{
+    text-decoration: underline;
+}
 .links-adress{
     color:white;
 }
