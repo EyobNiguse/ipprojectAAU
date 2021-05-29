@@ -1,0 +1,28 @@
+@import 'style.css';
+.contact{
+ height:80vh;
+ display: grid;
+ place-items: center;
+ margin-top:auto;
+}
+.message-sender h3{
+    text-align: center;
+    padding:10px;
+}
+.submit-btn{
+    color:black;
+    background: yellow;
+}
+@media screen and (amx-width:1050px){
+    .txt-input{
+        width:100%;
+    }
+    .contact{
+        display: block;
+        width:100%;
+        height:50vh;
+    }
+    .message-sender{
+        margin-left:-10px;
+    }
+}

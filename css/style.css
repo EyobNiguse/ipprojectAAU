@@ -4,10 +4,11 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+
 }
 body{
     font-family: 'Lobster', cursive;
-  
+    overflow-x: hidden;
 
 }
 .button{
@@ -15,6 +16,10 @@ body{
   margin-right:350px;
   padding:5px;
   margin-top:2px;
+  font-family: Georgia, Times, serif;
+  font-size: 20px;
+  color:yellow;
+  text-align: center;
 }
 
 .button > div{
@@ -63,12 +68,11 @@ body{
 }
  
 .display{
-    padding:50px;
     display:grid;
-    padding-top: 80px;
-    grid-template-columns:10px 200px 30px  450px 10px 400px;
-    grid-template-rows: 500px;
-    /* height:800px; */
+    padding-top: 30px;
+    padding-bottom: 50px;
+    grid-template-columns:5px 200px 10px  400px 10px 400px;
+    grid-template-rows: 450px;
     grid-gap:5px;
     color:white;
     background: rgb(20, 19, 19);
@@ -281,6 +285,7 @@ a {
     font-family: 'Abril Fatface', cursive;
     border-radius: 25px;
     font-size:20px;
+    cursor: pointer;
 }
 header h3{
     text-align:center;
@@ -320,17 +325,23 @@ header h2{
     background: rgb(20, 19, 19);
     padding:50px;
     display: grid;
-    grid-template-columns: 10px 350px 350px 350px;
+    grid-template-columns: 10px 300px 300px 300px;
     grid-template-rows: 150px 10px;
+    grid-gap:5px;
 }
 .links-quick{
     grid-column:2;
+    color:white;
 }
 .links-quick a{
     text-decoration: underline;
 }
 .links-adress{
     color:white;
+}
+.footer  h4{
+
+    text-decoration: underline;
 }
 .footer ul li{
     list-style: none;
@@ -348,7 +359,7 @@ header h2{
 
 .socials{
     grid-row:2;
-    width:100vh;
+    width:1000px;
     text-align:center;
  
     
@@ -357,8 +368,9 @@ header h2{
     margin:10px;
 }
  
-@media screen and (max-width:700px){
- 
+@media screen and (max-width:1050px){
+    
+
 
     .display{
         display: block;
