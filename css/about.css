@@ -1,8 +1,14 @@
 @import 'style.css';
 .about{
+<<<<<<< HEAD
     padding:10px;
     display: grid;
     grid-template-columns:500px 500px;
+=======
+    padding:50px;
+    display: grid;
+    grid-template-columns:50px 500px 500px;
+>>>>>>> 6ad740a (complete branch)
     grid-template-rows: 20px 350px;
     grid-gap:20px;
     font-family: 'Times New Roman', Times, serif;
@@ -10,11 +16,19 @@
     
 }
 .musika-info{
+<<<<<<< HEAD
+=======
+    grid-column: 3;
+>>>>>>> 6ad740a (complete branch)
     grid-row: 2;
     padding:25px;
    text-align:justify;
 }
 .hold-logo{
+<<<<<<< HEAD
+=======
+    grid-column:2;
+>>>>>>> 6ad740a (complete branch)
     grid-row:2;
     background: url(../images/f.png) no-repeat;
     background-size: contain;

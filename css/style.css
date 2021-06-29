@@ -77,7 +77,11 @@ body{
     display:grid;
     padding-top: 30px;
     padding-bottom: 50px;
+<<<<<<< HEAD
     grid-template-columns:5px 200px 10px  400px 10px 400px;
+=======
+    grid-template-columns:100px 200px 10px  400px 10px 400px;
+>>>>>>> 6ad740a (complete branch)
     grid-template-rows: 450px;
     grid-gap:5px;
     color:white;
@@ -241,7 +245,11 @@ a {
 }
 .signup-holder{
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 5px 350px 350px ;
+=======
+    grid-template-columns: 150px 350px 350px ;
+>>>>>>> 6ad740a (complete branch)
     grid-gap:50px;
     padding:50px;
     place-items: center;
@@ -273,7 +281,11 @@ a {
     padding: 10px;
     background: yellow;
 }
+<<<<<<< HEAD
 .txt-input{
+=======
+.txt-input,.err{
+>>>>>>> 6ad740a (complete branch)
     display: block;
     margin:10px;
     padding:15px;
@@ -331,7 +343,11 @@ header h2{
     background: rgb(20, 19, 19);
     padding:50px;
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: 10px 300px 300px 300px;
+=======
+    grid-template-columns: 150px 300px 300px 300px;
+>>>>>>> 6ad740a (complete branch)
     grid-template-rows: 150px 10px;
     grid-gap:5px;
 }
@@ -373,7 +389,18 @@ header h2{
 .socials i{
     margin:10px;
 }
+<<<<<<< HEAD
  
+=======
+.txt-input::placeholder{
+    color:rgba(39, 36, 36, 0.808);
+    font-family: monospace;
+}
+.err::placeholder{
+    color:red;
+}
+
+>>>>>>> 6ad740a (complete branch)
 @media screen and (max-width:1050px){
     
 
